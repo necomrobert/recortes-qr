@@ -1,0 +1,112 @@
+:root {
+  --main-font-family: Arial, sans-serif;
+  --main-focus-color: #ff9135;
+  /* --main-focus-color: #00fff2; */
+  --main-background-color: #e6e6e6;
+  /* --main-contrast-color: #212025; */
+  --main-contrast-color: #383d41;
+  --main-font-color: #ffffff;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: var(--main-background-color);
+  align-items: center;
+  justify-content: center;
+  zoom: 180%;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+}
+
+section {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+table,
+th,
+td {
+  background: var(--white);
+  font-size: 0.87rem;
+  border: solid 1px var(--black);
+  margin: 10px;
+  border-collapse: collapse;
+  padding-inline: 10px;
+  text-align: center;
+}
+
+table th {
+  font-family: var(--main-font-family);
+  font-weight: bold;
+}
+
+table td {
+  font-family: var(--main-font-family);
+}
+
+table {
+  width: 87.08mm;
+  height: 11.74mm;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+table th:nth-child(1) {
+  display: none;
+}
+
+table td:nth-child(1) {
+  display: none;
+}
+
+table th:nth-child(2) {
+  width: 35.78mm;
+}
+table th:nth-child(3) {
+  width: 23.86mm;
+}
+table th:nth-child(4) {
+  width: 27.44mm;
+}
+
+tbody > tr > th {
+  height: 6.2mm;
+}
+
+tbody > tr {
+  height: 5.54mm;
+}
